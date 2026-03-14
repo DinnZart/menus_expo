@@ -34,19 +34,29 @@ prueba_movil/
 
 ## 🛠 Instalación y Configuración
 
-1. Clonar el repositorio:
+Siga estos pasos para ejecutar el proyecto de forma local en su entorno de desarrollo:
+
+1. **Clonar el repositorio:**
    ```bash
    git clone https://github.com/DinnZart/menus_expo.git
    ```
-2. Instalar dependencias:
+
+2. **Acceder al directorio del proyecto:**
+   ```bash
+   cd menus_expo
+   ```
+
+3. **Instalar las dependencias:**
+   Asegúrese de tener en su equipo [Node.js](https://nodejs.org/) instalado. Luego, instale los paquetes necesarios (incluyendo React Navigation, Reanimated, Gesture handler, etc.):
    ```bash
    npm install
    ```
-3. Iniciar el servidor de desarrollo:
+
+4. **Iniciar el servidor de desarrollo:**
+   Para levantar el proyecto en Expo, ejecute:
    ```bash
-   npm run dev
+   npm start
    ```
-   o
-   ```bash
-   npx expo start
-   ```
+   *(Este comando usará el script definido en el `package.json` que ejecuta `expo start`).*
+
+Luego de iniciar el servidor, puede escanear el código QR generado en la terminal con la aplicación de **Expo Go** (disponible en Android e iOS) o usar las teclas de atajo de la terminal para abrir la aplicación en un emulador conectado (`a` para Android, `i` para iOS).
